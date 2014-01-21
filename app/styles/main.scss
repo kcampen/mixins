@@ -1,4 +1,9 @@
 $shadow: inset 0 0 1px 2px yellow;
+$red: rgb(241, 93, 88);
+$blue: rgb(50, 103, 137);
+$green: rgb(149, 217, 26);
+$tan: rgb(219, 222, 203);
+$grey: rgb (147, 149, 153);
 
 
 @mixin button ($background-color, $width) {
@@ -12,9 +17,34 @@ $shadow: inset 0 0 1px 2px yellow;
     color: #fff;
     font-size: 40px;
     box-shadow: $shadow;
-    border: 1px solid rgb(147, 149, 153)
+    border: 1px solid $grey;
 }
 
+@mixin circle ($background-color, $radius){
+    width: 100px;
+    height: 100px;
+    background-color: $background-color;
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    border-radius: $radius;
+    box-shadow: $shadow;
+    border: 1px solid $grey;
+
+
+}
+
+@mixin last ($color, $font){
+    width: 100px;
+    height: 100px;
+    background-color: $grey;
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    color: $color;
+    font-size: $font;
+   
+}
 
 
 
@@ -22,20 +52,26 @@ body {
     background: rgb(65, 64, 66);
     font-family: 'Oswald', sans-serif;
     color: #333;
+}
 
-    .big-button {
-        @include button (rgb(241, 93, 88), 100px);
-
-    }
-
-    .med-button {
-        @include button (rgb(50, 103, 137), 150px);
-    }
-
-    .lg-button {
-        @include button (rgb(149, 217, 26), 200px);
+.hero-unit {
+    margin: 50px auto 0 auto;
+    width: 650px;
+    height: 187px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    background-color: $tan;
+    border-radius: 6px;
+    padding: 60px;
+    h1 {
+        font-size: 20px;
+        line-height: 1;
+        letter-spacing: -1px;
+        color: rgb(241, 93, 88);
     }
 }
+
 
 .mixit {
     background-color: rgb(0, 182, 151);
@@ -50,32 +86,48 @@ body {
 
 }
 
-.hero-unit {
-    margin: 50px auto 0 auto;
-    width: 650px;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 30px;
-    background-color: rgb(219, 222, 203);
-    border-radius: 6px;
-    padding: 60px;
-    h1 {
-        font-size: 20px;
-        line-height: 1;
-        letter-spacing: -1px;
-        color: rgb(241, 93, 88);
-    }
+.big-button {
+    @include button ($red, 100px);
+
+}
+
+.med-button {
+    @include button ($blue, 150px);
+}
+
+.lg-button {
+    @include button ($green, 200px);
+}
+
+
+.round {
+    @include circle ($red, 25px);
+
+}
+
+.rounder {
+    @include circle ($blue, 50px);
+}
+
+.roundy {
+    @include circle ($green, 100px);
 }
 
 
 
 
-
-
-
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+.more   {
+    @include last ($red, 20px);
 }
+
+.cheese {
+    @include last ($blue, 40px);
+}
+
+.please {
+    @include last ($green, 60px);
+}
+
+
+
+
