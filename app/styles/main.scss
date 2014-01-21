@@ -1,7 +1,40 @@
+$shadow: inset 0 0 1px 2px yellow;
+
+
+@mixin button ($background-color, $width) {
+    width: $width;
+    height: 65px;
+    background-color: $background-color;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    color: #fff;
+    font-size: 40px;
+    box-shadow: $shadow;
+    border: 1px solid rgb(147, 149, 153)
+}
+
+
+
+
 body {
     background: rgb(65, 64, 66);
     font-family: 'Oswald', sans-serif;
     color: #333;
+
+    .big-button {
+        @include button (rgb(241, 93, 88), 100px);
+
+    }
+
+    .med-button {
+        @include button (rgb(50, 103, 137), 150px);
+    }
+
+    .lg-button {
+        @include button (rgb(149, 217, 26), 200px);
+    }
 }
 
 .mixit {
@@ -12,17 +45,14 @@ body {
     text-align: center;
     border: 2px #fff solid;
     font-size: 50px;
-    box-shadow: inset 0 0 1px 2px gray;
+    box-shadow: $shadow;
     border-radius: 10px;
 
 }
 
-$width: 600px;
-$background-color: rgb(219, 222, 203);
-
 .hero-unit {
     margin: 50px auto 0 auto;
-    width: $width;
+    width: 650px;
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
@@ -36,6 +66,12 @@ $background-color: rgb(219, 222, 203);
         color: rgb(241, 93, 88);
     }
 }
+
+
+
+
+
+
 
 .browsehappy {
     margin: 0.2em 0;
