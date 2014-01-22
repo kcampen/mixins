@@ -31,7 +31,12 @@
                     <div class="big-button">One</div>
                     <div class="med-button">Two</div>
                     <div class="lg-button">Three</div>
-                    
+                    <h2>html</h2>
+                    <xmp><div class="big-button">One</div> <div class="med-button">Two</div> <div class="lg-button">Three</div></xmp>
+                    <h3>css</h3>
+                    <xmp> .big-button { @include button ($red, 100px);}.med-button { @include button ($blue, 150px);}.lg-button {@include button ($green, 200px);}</xmp>
+
+
                 </div>
         
                 <div class="hero-unit">
@@ -39,6 +44,11 @@
                     <div class="round"></div>
                     <div class="rounder"></div>
                     <div class="roundy"></div>
+                    <h2>html</h2>
+                    <xmp><div class="round"></div> <div class="rounder"></div><div class="roundy"></div></xmp>
+                    <h3>css</h3>
+                    <xmp>.round {@include circle ($red, 25px);}.rounder {@include circle ($blue, 50px);}.roundy {@include circle ($green, 100px);}</xmp>
+
                 </div>
 
                 <div class="hero-unit">
@@ -46,6 +56,10 @@
                     <div class="more">more</div>
                     <div class="cheese">cheese</div>
                     <div class="please">please</div>
+                    <h2>html</h2>
+                    <xmp><div class="more">more</div> <div class="cheese">cheese</div> <div class="please">please</div></xmp>
+                    <h3>css</h3>
+                    <xmp>.more {@include last ($red, 20px);}.cheese {@include last ($blue, 40px);}.please {@include last ($green, 60px);}</xmp>
                 </div>
 
         
