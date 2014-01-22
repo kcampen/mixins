@@ -1,12 +1,4 @@
-@media -sass-debug-info {
-  filename {
-    font-family: file\:\/\/\/Users\/kcampen\/Desktop\/projects\/mixins\/app\/styles\/main\.scss;
-  }
-
-  line {
-    font-family: \0000350;
-  }
-}
+/* line 50, ../../app/styles/main.scss */
 
 body {
   background: #414042;
@@ -14,15 +6,7 @@ body {
   color: #333;
 }
 
-@media -sass-debug-info {
-  filename {
-    font-family: file\:\/\/\/Users\/kcampen\/Desktop\/projects\/mixins\/app\/styles\/main\.scss;
-  }
-
-  line {
-    font-family: \0000356;
-  }
-}
+/* line 56, ../../app/styles/main.scss */
 
 .hero-unit {
   margin: 50px auto 0 auto;
@@ -36,15 +20,7 @@ body {
   padding: 60px;
 }
 
-@media -sass-debug-info {
-  filename {
-    font-family: file\:\/\/\/Users\/kcampen\/Desktop\/projects\/mixins\/app\/styles\/main\.scss;
-  }
-
-  line {
-    font-family: \0000366;
-  }
-}
+/* line 66, ../../app/styles/main.scss */
 
 .hero-unit h1 {
   font-size: 20px;
@@ -53,15 +29,7 @@ body {
   color: #f15d58;
 }
 
-@media -sass-debug-info {
-  filename {
-    font-family: file\:\/\/\/Users\/kcampen\/Desktop\/projects\/mixins\/app\/styles\/main\.scss;
-  }
-
-  line {
-    font-family: \0000372;
-  }
-}
+/* line 72, ../../app/styles/main.scss */
 
 .hero-unit h2 {
   font-size: 20px;
@@ -69,15 +37,7 @@ body {
   color: #326789;
 }
 
-@media -sass-debug-info {
-  filename {
-    font-family: file\:\/\/\/Users\/kcampen\/Desktop\/projects\/mixins\/app\/styles\/main\.scss;
-  }
-
-  line {
-    font-family: \0000378;
-  }
-}
+/* line 78, ../../app/styles/main.scss */
 
 .hero-unit h3 {
   font-size: 20px;
@@ -85,15 +45,7 @@ body {
   color: #95d91a;
 }
 
-@media -sass-debug-info {
-  filename {
-    font-family: file\:\/\/\/Users\/kcampen\/Desktop\/projects\/mixins\/app\/styles\/main\.scss;
-  }
-
-  line {
-    font-family: \0000386;
-  }
-}
+/* line 86, ../../app/styles/main.scss */
 
 .mixit {
   background-color: #00b697;
@@ -107,15 +59,7 @@ body {
   border-radius: 10px;
 }
 
-@media -sass-debug-info {
-  filename {
-    font-family: file\:\/\/\/Users\/kcampen\/Desktop\/projects\/mixins\/app\/styles\/main\.scss;
-  }
-
-  line {
-    font-family: \0000399;
-  }
-}
+/* line 99, ../../app/styles/main.scss */
 
 .big-button {
   width: 100px;
@@ -131,15 +75,7 @@ body {
   border: 1px solid rgb 147, 149, 153;
 }
 
-@media -sass-debug-info {
-  filename {
-    font-family: file\:\/\/\/Users\/kcampen\/Desktop\/projects\/mixins\/app\/styles\/main\.scss;
-  }
-
-  line {
-    font-family: \00003104;
-  }
-}
+/* line 104, ../../app/styles/main.scss */
 
 .med-button {
   width: 150px;
@@ -155,15 +91,7 @@ body {
   border: 1px solid rgb 147, 149, 153;
 }
 
-@media -sass-debug-info {
-  filename {
-    font-family: file\:\/\/\/Users\/kcampen\/Desktop\/projects\/mixins\/app\/styles\/main\.scss;
-  }
-
-  line {
-    font-family: \00003108;
-  }
-}
+/* line 108, ../../app/styles/main.scss */
 
 .lg-button {
   width: 200px;
@@ -179,15 +107,7 @@ body {
   border: 1px solid rgb 147, 149, 153;
 }
 
-@media -sass-debug-info {
-  filename {
-    font-family: file\:\/\/\/Users\/kcampen\/Desktop\/projects\/mixins\/app\/styles\/main\.scss;
-  }
-
-  line {
-    font-family: \00003113;
-  }
-}
+/* line 113, ../../app/styles/main.scss */
 
 .round {
   width: 100px;
@@ -201,15 +121,7 @@ body {
   border: 1px solid rgb 147, 149, 153;
 }
 
-@media -sass-debug-info {
-  filename {
-    font-family: file\:\/\/\/Users\/kcampen\/Desktop\/projects\/mixins\/app\/styles\/main\.scss;
-  }
-
-  line {
-    font-family: \00003118;
-  }
-}
+/* line 118, ../../app/styles/main.scss */
 
 .rounder {
   width: 100px;
@@ -223,15 +135,7 @@ body {
   border: 1px solid rgb 147, 149, 153;
 }
 
-@media -sass-debug-info {
-  filename {
-    font-family: file\:\/\/\/Users\/kcampen\/Desktop\/projects\/mixins\/app\/styles\/main\.scss;
-  }
-
-  line {
-    font-family: \00003122;
-  }
-}
+/* line 122, ../../app/styles/main.scss */
 
 .roundy {
   width: 100px;
@@ -245,15 +149,7 @@ body {
   border: 1px solid rgb 147, 149, 153;
 }
 
-@media -sass-debug-info {
-  filename {
-    font-family: file\:\/\/\/Users\/kcampen\/Desktop\/projects\/mixins\/app\/styles\/main\.scss;
-  }
-
-  line {
-    font-family: \00003129;
-  }
-}
+/* line 129, ../../app/styles/main.scss */
 
 .more {
   width: 100px;
@@ -266,15 +162,7 @@ body {
   font-size: 20px;
 }
 
-@media -sass-debug-info {
-  filename {
-    font-family: file\:\/\/\/Users\/kcampen\/Desktop\/projects\/mixins\/app\/styles\/main\.scss;
-  }
-
-  line {
-    font-family: \00003133;
-  }
-}
+/* line 133, ../../app/styles/main.scss */
 
 .cheese {
   width: 100px;
@@ -287,15 +175,7 @@ body {
   font-size: 40px;
 }
 
-@media -sass-debug-info {
-  filename {
-    font-family: file\:\/\/\/Users\/kcampen\/Desktop\/projects\/mixins\/app\/styles\/main\.scss;
-  }
-
-  line {
-    font-family: \00003137;
-  }
-}
+/* line 137, ../../app/styles/main.scss */
 
 .please {
   width: 100px;
